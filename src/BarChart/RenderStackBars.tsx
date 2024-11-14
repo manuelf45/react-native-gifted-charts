@@ -195,6 +195,7 @@ const RenderStackBars = (props: StackedBarChartPropsType) => {
                 stackBorderBottomRightRadius ??
                 stackBorderRadius,
               overflow: lowestBarPosition ? 'visible' : 'hidden',
+              bottom: item.barMarginBottom || 0
             },
           ]}>
           {item.stacks.map((stackItem, index) => {
