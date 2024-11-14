@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "android": "react-native run-android",
-    "build": "rm -rf ./dist && tsc -p . && ./build.sh",
+    "build": "rm -rf ./dist && npx tsc -p . && ./build.sh",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -47,7 +47,7 @@
     "react-native-svg": "^15.4.0",
     "react-test-renderer": "18.2.0",
     "ts-jest": "^29.2.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.3"
   },
   "peerDependencies": {
     "expo-linear-gradient": "*",
